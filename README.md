@@ -1,5 +1,5 @@
 
-# PCGAN 
+# PCGAN_Model
 
 ## Prerequisites
 - Linux 
@@ -35,4 +35,4 @@ Several samples of our dataset are in `./dataset`. Each sample incules 3 images,
 
 ## Acknowledgments
 Code borrows heavily from [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) and [partialconv](https://github.com/NVIDIA/partialconv). 
-# PCGAN_Model
+
