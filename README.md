@@ -31,7 +31,7 @@ Testing results are saved in `./result/`， and each result inculdes 8 images, I
 See `opt` in files (base_options.py and test_options.py) for additional testing options.
 
 ## Dataset
-Several samples of our dataset are in `./dataset`. Each sample incules 3 images, I~SAT~, I~GT~, I~M~. The size of training image is 350 x 350, but they are randomly crop to 256 x 256 in training process. Testing image is 256 x 256. 
+Several samples of our dataset are in `./dataset`. Each sample incules 3 images, I<sub>SAT</sub>, I<sub>GT</sub>, I<sub>M</sub>. The size of training image is 350 x 350, but they are randomly crop to 256 x 256 in training process. Testing image is 256 x 256. 
 
 ## Acknowledgments
 Code borrows heavily from [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) and [partialconv](https://github.com/NVIDIA/partialconv). 
