@@ -21,9 +21,13 @@ You can test our pretrained model in gvien examples of dataset folder by followi
 python test.py --dataroot=./dataset --epoch=200 --data_type=short
 ```
 '--epoch=200' means loading the 200th epoch saved model.
+
 '--data_type=short or long', 'short' means testing imges of short exposure time, while 'long' means testing imges of long exposure time (saturation images).
+
 The pretrained model can be downloaded at [Baidu Netdisk](https://pan.baidu.com/s/1ET_HHdvNyI8l-gjHg31ceg), password: `tr2n`.
+
 Testing results are saved in `./result/`， and each result inculdes 8 images, I_A~, I~M~, I~G~, I~COMP~, I~GT~, I~SAT~, M(I~G~), M(I~GT~), Where the mean of these tokens are in our paper.
+
 See `opt` in files (base_options.py and test_options.py) for additional testing options.
 
 ## Dataset
