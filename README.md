@@ -11,7 +11,7 @@ You can run our training code in gvien examples of dataset folder by following i
 ```bash
 python train.py  --dataroot=./dataset --batch_size=1
 ```
-Models are saved to `./checkpoints/` .
+Models are saved to `./checkpoints/`.
 See `opt` in files(base_options.py and train_options.py) for additional training options.
 
 ## Test
